@@ -14,7 +14,7 @@ body{
 #header{
     width: 30;
     height: 200vh;
-    background-image: url(./image/dp\ sodium.jpg);
+    background-image: url(dp\ sodium.jpg);
     background-size: cover;
     background-position: center;
 }
