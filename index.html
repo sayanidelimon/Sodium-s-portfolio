@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76aa358a82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/portfolio logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate student</p>
+                <h1>Hi,I'm <span>Sidrat</span> <br> From Brac University</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Drmc.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! I'm Sidrat Moon Taher, an enthusiastic undergraduate student at BRAC University, where I am pursuing a degree in Computer Science and Engineering. I have a passion for all things related to technology and enjoy exploring various facets of the digital world.Moreover, my interest in web development has driven me to explore the dynamic landscape of creating interactive and user-friendly online experiences. I've delved into various programming languages and frameworks, translating my ideas into functional websites that seamlessly blend aesthetics and functionality. The process of transforming lines of code into visually appealing interfaces truly captivates me.Feel free to connect with me – whether it's for a coding challenge, a collaborative project, or simply to share our passion for the fascinating world of technology</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web and app interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>Blogging</span><br>Think out of the box</li>
+                            <li><span>Competitive programming</span><br>Participating in Hackhathon</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-Current</span><br>Learnign by my own</li>
+                            <li><span>2020-Current</span><br>Specialist in HTML,CSS,JAVASCRIPT</li>
+                            <li><span>May 2021-July 2021</span><br>"outofthebox23.blogspot.com"</li>
+                            <li><span>2020-Current</span><br>Winner in National programming olympiad -District level</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>FEBRUARY 2012-APRIL 2018</span><br>Cumilla Zilla School</li>
+                            <li><span>MAY 2018-JULY 2020</span><br>Dhaka Residential Model College</li>
+                            <li><span>MAY 2022-Current student</span><br>BRAC University</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Cometitive programming</h2>
+                    <p>I am searching for competitive programming enthusiastic people.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Now i am in learning stage but i am providing my best to complete your service</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-blog"></i>
+                    <h2>Blogging</h2>
+                    <p>If you want to publish any of your article then contact with me</p>
+                    <a href="#">Learn more</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/amazon.jpg">
+                    <div class="layer">
+                        <h3>Amazon official website clone</h3>
+                        <p>I implement the official home page layout of amazon by using HTML and CSS in this project</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> limonsidrat4@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01949903277</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/limonsidrat"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/sidrat-moon-taher-08117b257"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sayanidelimon"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/sidrat_limon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/sodium_392?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="image/CONTACT.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name"required>
+                        <input type="email" name="email" placeholder="Your email adress"required>
+                        <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Sidrat. </p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tablinks");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemeu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+                    sidemeu.style.right="-200";
+                }
+    </script>
+</body>
+</html>
