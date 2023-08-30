@@ -16,9 +16,10 @@ Features:
 
 Technologies Used
 
-*HTML
+   HTML
 
-*CSS
+   CSS
 
 Contact
+
 You can reach me via email at limonsidrat4@gmail.com
